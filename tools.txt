@@ -1,0 +1,15 @@
+Selenium - automatizar navegadores
+Openpyxl - Automatizar planilhas
+
+# Entrar no site da - https://pje-consulta-publica.tjmg.jus.br/
+# Digitar número OAB e selecionar Estado
+# Clicar em pesquisar
+# Entrar em cada um dos processos
+# Extrair número do processo e a data da distribuição
+# Extrair e guardar últimas movimentações do processo
+# Guardar tudo no excel, separado por processos
+
+## Criando um ambiente virtual
+python -m venv leo
+.\leo\Script\activate
+pip install selenium Openpyxl
